@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"import sys,json; nb=json.load\\(sys.stdin\\); [print\\(f'--- Cell {i} \\({c[\\\\\"cell_type\\\\\"]}\\) ---\\\\n' + ''.join\\(c['source']\\)\\) for i,c in enumerate\\(nb['cells']\\)]\")",
+      "Bash(python3 *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push *)"
+    ]
+  }
+}

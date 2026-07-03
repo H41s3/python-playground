@@ -5,7 +5,14 @@
       "Bash(python3 *)",
       "Bash(git add *)",
       "Bash(git commit *)",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "Bash(jupyter nbconvert *)",
+      "Bash(git -C /Users/supertaro/Documents/DSA status)",
+      "Bash(git -C /Users/supertaro/Documents/DSA/notebooks rev-parse --show-toplevel)",
+      "Bash(git -C /Users/supertaro/Documents/DSA/notebooks add playground.ipynb)",
+      "Bash(git -C /Users/supertaro/Documents/DSA/notebooks commit -m 'fix stack peek — was printing literal -1 instead of stack[-1]')",
+      "Bash(git -C /Users/supertaro/Documents/DSA/notebooks commit -m 'add peek\\(\\) and is_empty\\(\\) to Queue — standard interface was incomplete')",
+      "Skill(schedule)"
     ]
   }
 }
